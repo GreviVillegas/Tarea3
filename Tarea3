@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Tarea3 {
+public static void main (String []Arg ){
+  System.out.println("Hola Mundo");
+  
+  Scanner add = new Scanner (System.in);
+  String a;
+  String b;
+  
+  System.out.println("Ingresa un nombre");
+  a = add.nextLine();
+  System.out.println("Ingresa un apellido");
+  b = add.nextLine();
+  
+  System.out.println("");
+  System.out.println("Hola mi nombre es: "+a);
+  System.out.println("Mi apellido es: "+b);
+ 
+}
+
+}
